@@ -1,0 +1,39 @@
+*{
+    background-color: olive;
+    color:
+}
+
+.web{
+    width:40%;
+    border: 5px dotted black;
+    margin: 15px;
+    padding: 15px;
+    float:right;
+
+}
+
+h2{
+ text-align: center;
+ font-size: 2.5em;
+}
+
+p{
+    font-size: 1.8em
+}
+
+.img{
+    width:30%;
+    border: 5px dotted black;
+    text-align: center;
+    font-size: 2em;
+    padding:  0 3% 3% 3%;
+    display:inline-block;
+    margin:15px;
+    
+}
+
+img{
+    width:100%;
+    
+    border:2px solid black;
+}
