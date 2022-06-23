@@ -9,14 +9,65 @@
 </head>
 <body>
 
+  <header class= "bar">
+    <ul class = "nav">
+      <li class = "li"  id = "L1"><a href="#home">Home</a></li>
+      <li class = "li" id = "L2"><a href="#about">About Me</a></li>  
+      
+      
+    </ul>
+</header>
+
+
     <section class = "img">
     <h1>Derrick Stahlman</h1>
   <img src="https://res.cloudinary.com/derrickstahlman/image/upload/v1654008506/trout_gubcoo.jpg" alt="Trout photo">
+  <button class=" btn1">Enlarge photo</button>
+  <button class=" btn2">Original photo size</button>
+  <button class=" btn3">Shrink photo</button>
+
   </section>
+
+
+<section class = "container">
+  <h2>Picture slider</h2>
+  
+  <div class = "contain">
+  
+    <div  class ="slider-outer">
+      <img class = "arrows" id = "prev" src = "https://res.cloudinary.com/derrickstahlman/image/upload/v1655821745/free_arrow_kaiwrc.jpg" alt ="arrow-left">
+
+
+    <div  class ="slider-inner">
+
+
+      <img src = "https://res.cloudinary.com/derrickstahlman/image/upload/v1655822630/camping_fdiebf.jpg" class = "active">
+      <img src = "https://res.cloudinary.com/derrickstahlman/image/upload/v1655822624/bass_yghe7t.jpg">
+      <img src = "https://res.cloudinary.com/derrickstahlman/image/upload/v1655822618/pilot_mountain_pxwdhd.jpg">
+      <img src = "https://res.cloudinary.com/derrickstahlman/image/upload/v1655822610/family_uvub4h.jpg">
+      <img src = "https://res.cloudinary.com/derrickstahlman/image/upload/v1655822603/daughter_yg2rxp.jpg">
+
+
+    </div>
+      
+    
+    <img class = "arrows" id = "next" src = "https://res.cloudinary.com/derrickstahlman/image/upload/v1655821745/free_arrow_kaiwrc.jpg" alt ="arrow-right">
+
+
+    
+    
+    </div>
+    </div>
+</section>
+
+
+
+
+
 
   <section class = "web">
 
-  <h2> My experience</h2>
+  <h2>My experience</h2>
   <p>My web development experience is growing. I Started learning HTML, CSS and JavaScript on my own at the end of 2020. I studied it for close to a year on my own before deciding going to college would benefit me greatly in learning web development. In college I learned about software development concepts. I also went deeper into HTML, CSS, JavaScript. I picked up several new programming languages as well. I took a course on Python and really enjoyed learning to write programs in python.  </p>
 
   </section>
@@ -34,12 +85,20 @@
   <p>With the knowledge gained in this course I intend to up my design skills and build much better websites. Using jQuery to build interactive websites looks to be a great way to bring interaction to websites and truly bring them to life. Most importantly though I'm excited that learning GitHub will help me become more marketable in the front-end web development industry where I intend to find a job once done with college. This skill will help me collaborate with others and build beautiful websites that one person would have a hard time creating on their own. </p>
   
   </section>
+
+  <footer>
+    <a class = "foot" href="#home">ⓒ Derrick Stahlman 2022</a>
+
+  </footer>
   
   
 
 
 
-  
+  <script
+  src="https://code.jquery.com/jquery-3.6.0.js"
+  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous"></script>
   <script src="script.js"></script>
 
 </body>
